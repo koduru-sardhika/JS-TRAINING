@@ -1,0 +1,82 @@
+REACT JS:
+reactjs is a library
+angularjs is a frame work
+framework is a collection of library
+ex: angular js, Bootstrap, tailwindCSS
+
+library is a collection of methods or functions
+ex: react.js, jQuery, Node.js, popper.js 
+
+
+python frameworks are jango and flask
+python libraries are pandas , numpy, butterflysoup etc...
+
+REACT:
+-it is a library
+-it is used to develop a single page application 
+-it is a component based application. components are reusable can use anywhere when want it
+-react is declarative
+
+**note: react will renders the component on the webpage without page reloading.
+how react works:
+                             
+
+                                         (one to one mapping)     
+                                document                      document
+                                    |                            |
+
+  react code-------->virtual-DOM   html  ------>real-DOM      html          
+                                    |
+                                 /    \                        /    \
+                               head   body                   head   body-------|
+                                |       |                       |              |
+                               / \    /  \                     / \             |
+                        meta   title  p     h1               meta   title      |
+                                      |                                        |
+                                       -----------------------------------------
+
+virtual DOM is a copy of real-DOM
+in virtual DOM whenever the element is created it also creates a unique key
+when the key is unique the element will be added to real DOM
+
+one to one mapping is done using an algorithm called as diffing algorithm.
+react uses a architecture  MVC(MODEL VIEW CONTROLLER)
+
+REACT INSTALL three dependencies:
+1.react dependency
+    - used to createElement,  stores all-hooks
+2.react-DOM
+    -used to create virtual-DOM
+3.react-script
+     -used to run, debug, test , eject react application
+     -npm start
+HISTORY OF REACT:
+react was introduced in the year 2013 by company called as Facebook now called as meta .
+Jordan walkie introduced react
+the version of react 19
+how to create react-application:
+1)CDN way
+2)node.js way
+
+a)npm :Node Package Manager
+    -->used to install, update, delete packages in a js.
+    --> packages will be installed globally
+npm install -g create-react-app
+create-react-app project-name
+b)npx: Node Package Execute
+     -->used to execute packages without installing it.
+     --> no need of globally while installing packages
+      npx create-react-app project-name
+Yarn and vite comes under npm
+-npm create vite@latest-->installs latest version of react
+
+vscode:
+convert the powershell to cmd
+cd folder-name
+npm create vite@latest
+project name
+select framework
+select a variant
+cd project-name
+npm install
+npm  run dev
