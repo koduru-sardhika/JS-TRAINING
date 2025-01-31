@@ -80,3 +80,82 @@ select a variant
 cd project-name
 npm install
 npm  run dev
+
+-------------------------------------
+//react folder structure
+-------------------------------------
+node-modules folder:-
+--->all the packages and third-party library.
+    will be present.
+
+src folder:-
+  -->it is a main folder 
+  -->used for creating components.
+
+index.html file:-
+   --->it is a root file.
+
+eslint (ecma script lint)
+--->it is a tool used for debug purpose.
+
+package.json file:-
+--->it stores all dependencies and third party library.
+
+Readme.json file:-
+--->is used for github which the github also having this readme file.
+
+babel:-
+--->will convert the advance concept of js to old version.
+------------------------------------------------
+//components in react:-
+------------------------------------------------
+--->components are basic building blocks in react.
+--->components are re-usable.
+1)class based component.
+2)function based component / presentational component / dumb component.
+
+1)class based component
+--->it is a es6 class in js.
+--->it uses react-life-cycle. 
+--->it is a stateful component.
+--->uses render() method.
+   rende() method will renders component on the web-page.
+--->it uses constructor to store data and extends keyword.
+import React from 'react'
+class demo extends React.component{
+    render(){
+    return <h1>i am class based component</h1>
+    }
+
+}
+export default demo; 
+
+2)function based component
+--->it is a js pure function.
+--->it doesn't use react life cycle.
+--->it doesn't take any render method.
+--->it is a stateless.
+first it is!
+--->after react 16.8 function based component becomes stateful component
+because of hooks.
+--->there is no constructor and extends in Function based component.
+
+
+import React from 'react'
+fucntion demo1()
+{
+    return(
+        <h1>function based component</h1>
+    )
+}
+export default demo1;
+
+
+import React from 'react'
+let demo2 = () =>
+{
+    return(
+        <h1>function based component</h1>
+    )
+}
+export default demo2;
