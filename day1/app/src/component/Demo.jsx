@@ -21,9 +21,9 @@ import React from 'react'
 const Demo = () => {
   return (
     <>
-    <h1>hello</h1>
-    <h2>Hello-world</h2>
-    <h2>{5+5}</h2>
+      <h1>hello</h1>
+      <h2>Hello-world</h2>
+      <h2>{5+5}</h2>
     </>
     
 

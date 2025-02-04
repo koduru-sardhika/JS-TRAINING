@@ -5,4 +5,4 @@ const Fbc = () => {
         <h1>I am Function based component</h1>
     )
 }
-export default Fbc
+export default Fbc    
