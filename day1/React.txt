@@ -437,3 +437,43 @@ demo.addEventListener("mouseleave" , () => {
     window.open("https://support.spotify.com/in-en/")
 
 })
+------------------------------------------------------------------------------
+state in react:
+ 
+-->state is used to store data in the same component and update the data in the component
+-->state is mutable(we can read and write)
+
+syntax:
+
+import {useState} from 'react';
+
+let [state , setState] = useState(initial-value)
+
+etState is a function used to update state.
+
+state--->used tostore intial-value
+setState--->used to update state value
+-----------------------------------------------------
+forms
+1)control forms (uses virtual dom)--->useStatehook
+2)uncontrol form (uses real dom )--->useRefhook
+preventDefault method is used to stop the page realoding a form.
+-----------------------------------------------------------------------------------
+
+useRef hook in react
+--------------------------------------
+--->ref stands for reference
+--->useRef uses real-dom
+--->useRef is having object called current.
+--->uses ref keyword
+--->useRef is used to un-controlled form.
+
+syntax:-
+import {useRef} from 'react'
+
+let identifier = useRef()
+
+
+note:hook were introduced in react 16.8
+     hooks works only in FBC(functional based component)
+     
