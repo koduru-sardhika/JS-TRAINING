@@ -476,4 +476,13 @@ let identifier = useRef()
 
 note:hook were introduced in react 16.8
      hooks works only in FBC(functional based component)
-     
+------------------------------------------------------------------
+List and keys in React
+------------------------------------------------------------------
+--->List is used to iterate an array using map() method.
+--->keys are used to track an element.
+--->Using keys will understand which element is created , updated and delete.
+
+Advantage:-
+--->Improves component efficiency.
+--->improves optimization of the browser.
